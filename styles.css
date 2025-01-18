@@ -1,0 +1,51 @@
+body, html {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box; /* Ensures padding and borders are included in element width/height */
+}
+
+
+
+.awesome {
+    font-family: Roboto, sans-serif;
+    background: #1f2937;
+}
+
+.header {
+    align-items: center;
+    display: flex;
+    justify-content: space-between;
+    /* outline: 3px solid pink; */
+}
+
+.logo {
+    font-weight: 700;
+    color: #f2f3f3;
+}
+
+ul {
+    display: flex;
+    list-style-type: none;
+    gap: 16px;
+
+  }
+
+  a {
+    text-decoration: none;
+    color: #bfc3c9;
+  }
+
+.left,
+.right {
+    display:flex;
+    margin-top: 20px;
+    margin-bottom: 20px;
+}
+
+.left {
+    margin-left: 250px;
+}
+
+.right {
+    margin-right: 250px;
+}
