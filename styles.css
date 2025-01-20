@@ -37,7 +37,7 @@ ul {
 .left,
 .right {
     display:flex;
-    margin-top: 20px;
+
     margin-bottom: 20px;
 }
 
@@ -47,4 +47,27 @@ ul {
 
 .right {
     margin-right: 250px;
+}
+
+.title {
+    color: #f2f3f3;
+    font-weight: 700;
+}
+
+.subtext {
+    color: #bfc3c9;
+}
+
+button {
+    cursor: pointer;
+    padding: 8px 24px;
+    border-radius: 8px;
+}
+
+button,
+.button{
+    background: royalblue;
+    border: 1px solid royalblue;
+    color: white;
+    font-weight: 700;
 }
