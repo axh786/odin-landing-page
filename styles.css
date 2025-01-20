@@ -37,8 +37,6 @@ ul {
 .left,
 .right {
     display:flex;
-
-    margin-bottom: 20px;
 }
 
 .left {
@@ -52,6 +50,7 @@ ul {
 .title {
     color: #f2f3f3;
     font-weight: 700;
+    font-size: 35px;
 }
 
 .subtext {
@@ -60,7 +59,7 @@ ul {
 
 button {
     cursor: pointer;
-    padding: 8px 24px;
+    padding: 8px 30px;
     border-radius: 8px;
 }
 
@@ -70,4 +69,25 @@ button,
     border: 1px solid royalblue;
     color: white;
     font-weight: 700;
+    font-size: 15px;
+}
+
+.mainbody {
+    display: flex;
+    justify-content: space-between;
+    margin-top: 75px;
+    height: 275px;
+}
+
+.text {
+    display: flex;
+    flex-direction: column;
+    margin-left: 250px;
+    width: 400px;
+    gap: 10px;
+    flex-shrink: 0;
+}
+
+.image {
+    margin-right: 250px;
 }
