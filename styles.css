@@ -7,7 +7,6 @@ body, html {
 
 
 .awesome {
-
     background: #1f2937;
 }
 
@@ -97,6 +96,7 @@ button,
     display: flex;
     justify-content: center;
     gap: 50px;
+    margin-bottom: 50px;
 }
 
 .randomTitle {
@@ -119,3 +119,5 @@ button,
     width: 150px;
     text-align: center;
 }
+
+
