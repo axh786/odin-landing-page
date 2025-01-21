@@ -54,14 +54,6 @@ ul {
     display:flex;
 }
 
-.left {
-    /* margin-left: 250px; */
-}
-
-.right {
-    /* margin-right: 250px; */
-}
-
 .title {
     color: #f2f3f3;
     font-weight: 700;
